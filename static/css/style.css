@@ -1,0 +1,185 @@
+/* General body and page layout */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #ff661f;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 46px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Navigation bar styling */
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff661fda;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #ff661fdc;
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    padding: 40px 80px;
+    text-align: justify;
+}
+
+main h2 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #046A38;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+form button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form button:active {
+    background-color: #004494;
+}
+
+/* Extra styles for responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 24px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form label {
+        font-size: 0.9rem;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
