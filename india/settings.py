@@ -13,7 +13,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')  # Use environme
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'  # Use environment variable for toggle
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app']
 
 # Application definition
 
