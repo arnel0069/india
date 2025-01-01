@@ -1,7 +1,13 @@
 <!-- contact_us.html -->
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block title %}Contact Us | Incredible India{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/contact_us.css' %}">
+{% endblock %}
 
 {% block content %}
     <h2>Contact Us</h2>
